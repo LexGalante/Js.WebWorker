@@ -1,0 +1,33 @@
+<!DOCTYPE>
+<html>
+
+<head>
+    <title>Javascript Web Worker</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="container" style="margin-top: 15em;">
+        <div class="card">
+            <div class="card-body">
+                <div class="row">
+                    <div class="col-12">
+                        <h1>Contagem: <output id="time"></output></p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-3">
+                        <button class="btn btn-primary btn-full" onclick="startWorker()">Iniciar Contagem</button>
+                    </div>
+                    <div class="col-3">
+                        <button class="btn btn-danger btn-full" onclick="stopWorker()">Parar Contagem</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+
+</html>
